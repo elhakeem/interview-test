@@ -8,6 +8,10 @@ const CartContext = createContext<{
   dispatch: React.Dispatch<CartAction>;
 } | undefined>(undefined);
 
+/**
+ * Usually I use immer to avoid object destructions, better for readability.
+ */
+
 const cartReducer = (state: CartState, action: CartAction): CartState => {
   switch (action.type) {
     case 'INITIATE_CART':
