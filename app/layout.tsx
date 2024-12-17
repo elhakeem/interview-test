@@ -11,8 +11,8 @@ const readexPro = Readex_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "Breadfast Ecommerce App",
-  description: "Breadfast test ecommerce app",
+  title: "Interview Ecommerce App",
+  description: "Interview test ecommerce app",
 };
 
 export default function RootLayout({
