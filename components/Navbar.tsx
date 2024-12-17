@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className="bg-muted text-forground p-4 border-b-[1px]">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="text-xl font-bold">
-          E-Breadfast Store
+          Interview Store
         </Link>
         <Link href="/cart" className="flex items-center">
           <span className="mr-2"><ShoppingBag /></span>
